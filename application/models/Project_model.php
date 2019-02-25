@@ -80,8 +80,6 @@ class Project_model extends CI_Model {
 
 	}
 
-
-
 	public function get_projects_info($project_id) {
 
 		$this->db->where('id', $project_id);
@@ -92,6 +90,7 @@ class Project_model extends CI_Model {
 
 
 	}
+	
 
 
 	public function get_project_tasks($project_id, $active = true) {
