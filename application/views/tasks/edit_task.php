@@ -12,7 +12,7 @@
 $data = array(
 	'class' => 'form-control',
 	'name' => 'task_name',
-	'value' => $the_task->task_name
+	'value' => 'task_value'
 	);
 ?>
 
@@ -27,7 +27,7 @@ $data = array(
 $data = array(
 	'class' => 'form-control',
 	'name' => 'task_body',
-	'value' => $the_task->task_body
+	'value' => 'task_value'
 	);
 ?>
 
@@ -42,7 +42,7 @@ $data = array(
 	'class' => 'form-control',
 	'name' => 'due_date',
 	'type' => 'date',
-	'value' => $the_task->due_date
+	'value' => 'due_date'
 	);
  ?>
 

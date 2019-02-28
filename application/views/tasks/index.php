@@ -63,12 +63,12 @@
     
             </div>
     
-            <!-- <div class="">
+            <div class="">
     
                 <a class="btn btn-danger " href="<?php echo base_url();?>tasks/delete/<?php echo $task->id; ?>"><span class="glyphicon glyphicon-remove"></span></a>
                 
     
-            </div> -->
+            </div>
     
             </li>
     
